@@ -13,7 +13,7 @@ script:
   - yarn run flow
   - yarn run lint && yarn run typescript && yarn run tslint
 notifications:
-  email: fenixsacer@gmail.com
+  email:
     on_failure: change
 cache:
   yarn: true
