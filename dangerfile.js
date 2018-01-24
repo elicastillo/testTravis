@@ -32,10 +32,10 @@ if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
 }
 
 // Fail if there are app changes without a CHANGELOG
-if (!danger.git.modified_files.includes('CHANGELOG.md') && hasAppChanges) {
-  const changelogLink = 'https://github.com/styled-components/styled-components/blob/master/CHANGELOG.md'
-  fail(`Please include a CHANGELOG entry. You can find it at <a href='${changelogLink}'>CHANGELOG.md</a>`)
-}
+//if (!danger.git.modified_files.includes('CHANGELOG.md') && hasAppChanges) {
+  //const changelogLink = 'https://github.com/styled-components/styled-components/blob/master/CHANGELOG.md'
+  //fail(`Please include a CHANGELOG entry. You can find it at <a href='${changelogLink}'>CHANGELOG.md</a>`)
+//}
 
 // Warn if there are library changes, but not tests (excluding vendor)
 const libraryOnlyFiles = jsModifiedFiles.filter(file => !vendorModifiedFiles.includes(file))
