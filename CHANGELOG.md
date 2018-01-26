@@ -1,4 +1,4 @@
-# Changelog
+# Changelog +
 
 All notable changes to this project will be documented in this file. If a contribution does not have a mention next to it, [@geelen](https://github.com/geelen) or [@mxstbr](https://github.com/mxstbr) did it.
 
